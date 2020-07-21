@@ -21,26 +21,27 @@ body {
 
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  margin: 0;
 }
 
 .erase-stile {
   list-style: none;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 /*page header*/
-.header {
-  background-color: #e9dede;
+.header-conteiner {
+  outline: 2px solid red;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-.page-nav {
+/*.page-nav {
 }
 .page-contacts {
-}
+}*/
 /* nav*/
 .logo {
   color: #000000;
@@ -87,7 +88,17 @@ body {
 
 /* head*/
 .section-head {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 94px;
+  outline: 2px solid red;
+}
+.title-head {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--text-title-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -95,28 +106,16 @@ body {
   letter-spacing: 0.06em;
 }
 
-.section-title-detalis {
-  color: var(--text-title-color);
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.42;
-  letter-spacing: 0.03em;
-}
-.section-title {
-  color: var(--text-title-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-
 /* button*/
 .button-head {
   color: #ffffff;
   background-color: var(--accent-text);
+
+  display: inline;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
 
   font-weight: 700;
   font-size: 16px;
@@ -126,18 +125,69 @@ body {
 }
 
 /* features*/
-/*.sectio-feuter{es{}*/
+.features-conteiner {
+  outline: 2px solid red;
+  margin-top: 0;
+}
+.features-img {
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.section-title-detalis {
+  color: var(--text-title-color);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.section-title {
+  color: var(--text-title-color);
+
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
 .section-text {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*development site*/
+.development-conteiner {
+  outline: 2px solid rebeccapurple;
+  margin-top: 0;
+}
+.development-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .site-link {
   color: #ffffff;
   background-color: #2f303a;
+  display: inline-block;
+  padding: 27px 83px;
+  width: 370px;
+  height: 70px;
 
   font-weight: 700;
   font-size: 14px;
