@@ -31,21 +31,28 @@ body {
   margin: 0;
 }
 /*page header*/
+
 .conteiner {
   outline: 2px solid red;
   width: 1230px;
 
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+/* nav*/
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .page-nav .pat {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* nav*/
 .logo {
   color: #000000;
 
@@ -56,6 +63,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  outline: 1px solid red;
 }
 
 .logo .pat {
@@ -70,6 +78,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+  outline: 1px solid red;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .site-nav .link:focus,
 .site-nav .link:hover {
@@ -78,6 +94,17 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-text);
+}
+.page-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-nav {
+  display: flex;
+  outline: 1px solid red;
+}
+.contacts-nav .item-link:not(:last-child) {
+  margin-right: 30px;
 }
 
 .contacts-nav .link {
@@ -96,6 +123,7 @@ body {
   margin-bottom: 94px;
   outline: 2px solid red;
 }
+
 .title-head {
   margin-top: 0;
   margin-bottom: 30px;
@@ -132,6 +160,12 @@ body {
 .features-conteiner {
   margin-bottom: 94px;
 }
+.features-conteiner .features-item:not(:last-child) {
+  margin-right: 30px;
+}
+.features {
+  display: flex;
+}
 .features-img {
   display: inline-block;
   width: 270px;
@@ -142,6 +176,7 @@ body {
   border-radius: 4px;
   outline: 1px solid red;
 }
+
 .section-title-detalis {
   color: var(--text-title-color);
 
@@ -154,6 +189,7 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .section-title {
   color: var(--text-title-color);
 
