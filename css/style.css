@@ -39,6 +39,7 @@ body {
   padding-right: 15px;
   margin-left: 215px;
   margin-right: 215px;
+  outline: 1px solid red;
 }
 /* nav*/
 .main-nav {
@@ -323,7 +324,6 @@ body {
 /*footer*/
 .footer {
   width: 1600px;
-  height: 252px;
 
   background-color: #2f303a;
 }
@@ -332,7 +332,8 @@ body {
   align-items: baseline;
 }
 .webstudio {
-  margin-top: 0;
+  margin-top: 60px;
+  margin-right: 147px;
   margin-bottom: 20px;
 }
 .footer-logo {
@@ -365,11 +366,13 @@ body {
   margin-bottom: 0;
 }
 .adress {
+  width: 231px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
-  margin-bottom: 0;
+  margin-right: 69px;
+  margin-bottom: 60px;
 }
 .adress-link {
   color: #acacb0;
@@ -380,11 +383,11 @@ body {
 .adress-link:hover {
   color: var(--accent-text);
 }
-.block-adress-logo {
+/*.block-adress-logo {
   margin-top: 60px;
   margin-right: 69px;
   margin-bottom: 60px;
-}
+}*/
 .block-link {
   margin-right: 94px;
   margin-top: 72px;
@@ -419,8 +422,10 @@ body {
   display: flex;
 }
 .call-on {
-  width: 570px;
+  margin-top: 72px;
+  margin-bottom: 94px;
 }
+
 .call {
   display: inline-block;
   border: 1px solid;
