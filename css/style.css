@@ -33,24 +33,24 @@ body {
 /*page header*/
 
 .conteiner {
-  width: 1200px;
+  width: 1230px;
 
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* nav*/
 .main-nav {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.page-nav .pat {
+/*.page-nav .pat {
   padding-left: 15px;
   padding-right: 15px;
-}
+}*/
 
 .logo {
   color: #000000;
@@ -120,9 +120,8 @@ body {
   margin-bottom: 94px;
 }
 .img-header {
-  display: block;
-  width: 1600px;
-  height: 600px;
+  display: flex;
+  justify-content: center;
 }
 
 .title-head {
@@ -248,12 +247,13 @@ body {
 
 /*our team*/
 .section-team {
-  width: 1600px;
-  height: 720px;
+  background-color: #f5f4fa;
+
+  margin-bottom: 94px;
+  margin-right: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #f5f4fa;
-  margin-bottom: 94px;
 }
 .bloc-team {
   display: flex;
@@ -427,7 +427,7 @@ body {
   display: inline-block;
   border: 1px solid;
   width: 358px;
-  height: 50px;
+
   border-radius: 4px;
 
   margin-right: 12px;
@@ -446,7 +446,7 @@ body {
   display: inline-block;
   border: 1px solid;
   width: 200px;
-  height: 50px;
+
   border-radius: 4px;
 
   background-color: var(--accent-text);
